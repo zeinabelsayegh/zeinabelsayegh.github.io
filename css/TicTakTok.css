@@ -1,0 +1,37 @@
+.my-game
+{background-color:#DDD;}
+/*Start Header*/
+.my-game .game-header
+{padding: 20px 40px;}
+.my-game .game-header .left span
+{color:#000;
+font-size: 25px;
+font-weight:bold}
+.my-game .game-header .right i
+{color: #000;
+cursor:pointer;
+float: right}
+.my-game .game-header p
+{color: #750001;
+font-size: 25px;
+font-weight:bold;}
+/*End Header*/
+
+/*Start Body Game*/
+.my-game .computer .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th,
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td,
+.my-game .two-player .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th,
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td
+{border-top:4px solid #000;
+line-height:6.42857143;
+height:120px;
+cursor:pointer}
+/*.my-game .computer ,.my-game .game-footer2{display:none}*/
+.my-game .two-player .table #x,.my-game .computer .table #x
+{border-right: 4px solid #000}
+.my-game .two-player .table #y ,.my-game .computer .table #y
+{border-left: 4px solid #000}
+.my-game .two-player,.my-game .game-footer{display:none}
+#sone,#stwo,#sthree,#sfour,#sfive,#ssix,#sseven,#seight,#snine,
+#scone,#sctwo,#scthree,#scfour,#scfive,#scsix,#scseven,#sceight,#scnine
+{display: none}

@@ -1,0 +1,37 @@
+.my-game
+{background-color:#DDD;}
+/*Start Header*/
+.my-game .game-header
+{padding: 20px 40px;}
+.my-game .game-header p
+{color: #750001;
+font-size: 25px;
+font-weight:bold;}
+.my-game .game-header .left span
+{color:#000;
+font-size: 25px;
+font-weight:bold}
+.my-game .game-header .right i
+{color: #000;
+cursor:pointer;
+float: right}
+/*End Header*/
+/*Start Body Game*/
+.two-player .one li,.two-player .two li,.two-player .three li,
+.computer .one li,.computer .two li,.computer .three li
+{display: inline-block;
+cursor:pointer;
+width: 32.60%;
+height:100%;
+line-height: 4.555}
+.two-player,.computer {margin-top: 15px}
+.two-player .one,.two-player .two,.two-player .three,.computer.one,.computer .two,.computer .three{
+margin: 0px;
+width: 100%;
+height: 100px}
+.two,.three{border-top: 5px solid #000;}
+.test{border-right: 5px solid #000}
+/*Start Two Player*/
+.two-player{display: none}
+/*End Two Player*/
+/*End Body Game*/
